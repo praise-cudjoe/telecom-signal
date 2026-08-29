@@ -8,7 +8,7 @@ line, = ax.plot([], [], lw=2)
 ax.set_xlim(0, 0.5)
 ax.set_ylim(-1.5, 1.5)
 ax.grid(True)
-ax.set_title("Mystic's Square - 5Hz")
+ax.set_title("Square Wave Carrier Signal - 5Hz")
 
 def animate(k):
     sine = np.sin(2 * np.pi * 5 * t + k/10)
